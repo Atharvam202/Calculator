@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Ubuntu:wght@300&display=swap');
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Roboto', sans-serif; 
+  background-color: #EBEBEB;
+}
+
+.button{
+  width: 66px;
+  padding: 20px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+}
+#grey1:hover{
+  background-color: white;
+  color: black;
+}
+#grey2:hover{
+  background-color: white;
+  color: black;
+}
+#grey3:hover{
+  background-color: white;
+  color: black;
+}
+#org1:hover{
+  background-color: white;
+  color: black;
+}
+#org2:hover{
+  background-color: white;
+  color: black;
+}
+#org3:hover{
+  background-color: white;
+  color: black;
+}
+#org4:hover{
+  background-color: white;
+  color: black;
+}
+#org5:hover{
+  background-color: white;
+  color: black;
+}
+#org1{
+  background-color: orange;
+  color: white;
+}
+#org2{
+  background-color: orange;
+  color: white;
+}
+#org3{
+  background-color: orange;
+  color: white;
+}
+#org4{
+  background-color: orange;
+  color: white;
+}
+#org5{
+  background-color: orange;
+  color: white;
+}
+#grey1 {
+  background-color: rgba(169, 169, 169, 0.584);
+  color: white;
+}
+#grey2 {
+  background-color: rgba(169, 169, 169, 0.584);
+  color: white;
+}
+#grey3 {
+  background-color: rgba(169, 169, 169, 0.584);
+  color: white;
+}
+#libl {
+  background-color: rgba(0, 0, 0, 0.26);
+  color: white;
+}
+#libl:hover{
+  background-color: white;
+  color: black;
+}
+.row{
+  margin: 8px 0;
+  display: flex;
+}
+.row input{
+  width: 291px;
+  font-size: 20px;
+    margin: 0;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.row input{
+  background-color: black;
+    color: white;
+    margin-left: 42.5px;
+    width: 200px;
+}
+.calcu {
+  position: relative;
+    bottom: -145px;
+    right: -267px;
+    background-color: black;
+    color: white;
+    width: 291px;
+}
+.text-center p{
+  text-align: center;
+  position: relative;
+  font-size: 20px;
+  font-style: bold;
+}
+.cover {
+  background-image: url(phonecover.png);
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 724px;
+  width: 826px;
+  margin-left: 215px;
+}
